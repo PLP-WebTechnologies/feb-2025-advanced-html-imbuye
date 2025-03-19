@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Advanced HTML5 Elements and Forms</h1>
+    </header>
+    
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List</h2>
+        <ol type="I">
+            <li>Introduction to HTML5</li>
+            <li>Working with Forms</li>
+            <li>Using Tables</li>
+            <li>Multimedia Elements</li>
+            <li>Validation and Accessibility</li>
+        </ol>
+    </section>
+    
+    <!-- External Image -->
+    <section>
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Sample Image from Pexels" width="500">
+    </section>
+    
+    <!-- Contact Table -->
+    <section>
+        <h2>Contact List</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Street, City</td>
+                <td>+1234567890</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Avenue, City</td>
+                <td>+1987654321</td>
+                <td>jane@example.com</td>
+            </tr>
+            <tr>
+                <td>Robert Brown</td>
+                <td>789 Boulevard, City</td>
+                <td>+1122334455</td>
+                <td>robert@example.com</td>
+            </tr>
+            <tr>
+                <td>Emily White</td>
+                <td>1011 Lane, City</td>
+                <td>+5566778899</td>
+                <td>emily@example.com</td>
+            </tr>
+            <tr>
+                <td>Michael Green</td>
+                <td>1213 Court, City</td>
+                <td>+6677889900</td>
+                <td>michael@example.com</td>
+            </tr>
+        </table>
+    </section>
+    
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+            
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male"> <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female"> <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Other"> <label for="other">Other</label><br><br>
+            
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="">Select Country</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+            </select><br><br>
+            
+            <label>Interests:</label><br>
+            <input type="checkbox" id="coding" name="interests" value="Coding"> <label for="coding">Coding</label>
+            <input type="checkbox" id="music" name="interests" value="Music"> <label for="music">Music</label>
+            <input type="checkbox" id="sports" name="interests" value="Sports"> <label for="sports">Sports</label><br><br>
+            
+            <button type="submit">Register</button>
+        </form>
+    </section>
+</body>
+</html>
